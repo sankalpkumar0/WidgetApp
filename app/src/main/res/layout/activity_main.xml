@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+    <Button
+        android:id="@+id/create_floating_widget"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:onClick="createFloatingWidget"
+        android:text="@string/Create_Floating_Widget"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+    <Button
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:id="@+id/button1"
+        android:text="@string/Next_Screen"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:onClick="NextScreen"
+        />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:text="Screen 1"
+        android:textAllCaps="true"
+        android:id="@+id/text1"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="300dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf ="@id/button1"/>
+
+
+
+</LinearLayout>

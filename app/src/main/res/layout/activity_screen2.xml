@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <Button
+        android:id="@+id/create_floating_widget1"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:onClick="createFloatingWidget1"
+        android:text="Create Floating Widget"
+        android:textColor="@android:color/white"
+        tools:ignore="MissingConstraints"
+        android:textSize="14sp" />
+    <Button
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:text="Prev Screen"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf = "@id/create_floating_widget1"
+        android:textSize="14sp"
+        android:id="@+id/button2"
+        android:onClick="PrevScreen"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:text="Screen 2"
+        android:textAllCaps="true"
+        android:id="@+id/text2"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="300dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf ="@id/button2"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

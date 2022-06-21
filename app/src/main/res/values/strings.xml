@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Widget App</string>
+    <string name="next_screen" />
+    <string name="create_floating_widget" />
+    <string name="Create_Floating_Widget">Create Floating Widget</string>
+    <string name="Next_Screen">Next Screen</string>
+    <string name="draw_other_app_permission_denied">draw other app permission denied</string>
+    <string name="floating_widget_label" />
+    <string name="Floating_Widget_Label">Floating Widget Label</string>
+    <string name="floating_widget_details">Floating Widget Details</string>
+</resources>
